@@ -1,0 +1,46 @@
+*,
+*:before,
+*:after {
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+   font: 300 1em/1.5 "lato", "Helvetica Neue", Arial, sans-serif;
+   text-decoration: none;
+   color: #111;
+}
+
+html,
+body {
+   background: rgb(236, 240, 241);
+}
+
+.container{
+    height: 100vh;
+    // border: 5px solid rgb(179, 154, 32);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+button{
+    background: transparent;
+    outline: none;
+    border: 2px solid #111;
+    padding: 15px 50px;
+}
+
+button div {
+   text-transform: uppercase;
+   letter-spacing: 3px;
+   font-weight: 800;
+   font-size: 0.8em;
+   transition: all 0.3s ease-in-out;
+}
+
+
+button:hover {
+   cursor: pointer;
+}
+
+// still js and animation are going to be updated-->
